@@ -16,7 +16,6 @@ navigator.getUserMedia =
 function run() {
     startCamera();
     requestAnimationFrame(detectFace);
-    Module._test();
 }
 
 async function startCamera() {
