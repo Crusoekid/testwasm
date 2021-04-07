@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<style>
+    .area
+    {
+        background-color: green;
+        height: auto;
+        border: 2px solid;
+        margin: 0 auto;
+        position: relative;
+    }
+    .rightarea
+    {
+        float: left;
+        margin-left:200px;
+
+    }
+    .leftarea
+    {
+        float: left;
+    }
+</style>
+
+<head>
+    <meta charset="utf8">
+    <title>Tengine-Kit</title>
+</head>
+
+<body>
+    <div id="loading">Loading...</div>
+
+    <div class="area">
+        <video  width="640" height="480" id="video" cuted="cuted" class="leftarea"></video>
+        <canvas width="640" height="480" id="outputCanvas" class="rightarea"></canvas>
+    </div>
+    <script src="testb.js"></script>
+    <script src="libs/helloworld.js"></script>
+    <!-- <script src="libs/CTest.js"></script> -->
+</body>
+</html>

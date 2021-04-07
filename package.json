@@ -1,0 +1,17 @@
+{
+  "name": "video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "document": "^0.4.7",
+    "fs": "0.0.1-security",
+    "jsdom": "^16.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
