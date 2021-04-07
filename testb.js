@@ -46,6 +46,7 @@ function detectFace() {
 
 function initOver() {
     console.log("Init Over");
+    Module._add();
 }
 
 var Module = {
